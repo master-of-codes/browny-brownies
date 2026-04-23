@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browny Brownies - Premium homemade brownies for every celebration">
+<meta name="theme-color" content="#c084fc">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Browny Brownies">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="assets/logo.jpg">
+    <title>Browny Brownies - Premium Brownie Brand</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Ionicons for mobile navbar -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <img src="assets/logo.jpg" alt="Browny Brownies" class="logo-img">
+                <span class="logo-text">Browny Brownies</span>
+            </a>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#cakes" class="nav-link">Brownies</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="search-container">
+        <input type="text" class="search-bar" placeholder="Search brownies...">
+                <ion-icon name="search-outline" class="search-icon"></ion-icon>
+                <ion-icon name="close-circle" class="search-clear"></ion-icon>
+            </div>
+            <!-- Mobile Header Only -->
+            <div class="mobile-search-toggle">
+                <ion-icon name="search-outline"></ion-icon>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Bottom Navbar -->
+    <nav class="mobile-navbar">
+        <a href="#home" class="nav-item active">
+            <ion-icon name="home-outline"></ion-icon>
+            <span>Home</span>
+        </a>
+        <a href="#cakes" class="nav-item">
+            <ion-icon name="grid-outline"></ion-icon>
+            <span>Brownies</span>
+        </a>
+        <a href="#about" class="nav-item">
+            <ion-icon name="information-circle-outline"></ion-icon>
+            <span>About</span>
+        </a>
+        <a href="#contact" class="nav-item">
+            <ion-icon name="call-outline"></ion-icon>
+            <span>Contact</span>
+        </a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+<h1 class="hero-title">Ultimate Brownie Bliss Crafted With Love</h1>
+    <p class="hero-statement">Handcrafted premium brownies baked fresh for every celebration. Experience fudgy perfection in every bite.</p>
+                    <a href="#cakes" class="btn btn-primary hero-btn">Available Designs</a>
+                </div>
+                <div class="hero-image">
+                    <div class="carousel">
+                        <div class="carousel-inner">
+                <div class="carousel-item active"><img src="https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Fudgy Brownie 1"></div>
+                            <div class="carousel-item"><img src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?ixlib=rb-4.0.3&w=800&q=80" alt="Nutty Brownie 2"></div>
+                            <div class="carousel-item"><img src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?ixlib=rb-4.0.3&w=800&q=80" alt="Blondie 3"></div>
+                        </div>
+                        <button class="carousel-control prev"><ion-icon name="chevron-back-outline"></ion-icon></button>
+                        <button class="carousel-control next"><ion-icon name="chevron-forward-outline"></ion-icon></button>
+                        <div class="carousel-dots">
+                            <span class="dot active" data-index="0"></span>
+                            <span class="dot" data-index="1"></span>
+                            <span class="dot" data-index="2"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="menu-section">
+            <div class="container menu-container">
+                <div class="menu-header-img">
+                    <img src="https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?ixlib=rb-4.0.3&w=800&q=80" alt="Fudgy Brownie Header">
+                    <div class="menu-overlay"></div>
+                </div>
+
+                <div class="menu-content">
+                    <div class="menu-grid">
+                        <div class="menu-column">
+                            <h3 class="menu-category-title">Classic Brownies</h3>
+                            <div class="menu-price-header">Half Tray/Full Tray</div>
+                            <ul class="menu-list">
+                                <li><span class="item-name">Fudgy Chocolate</span><span class="item-price">250/500</span></li>
+                                <li><span class="item-name">Nutty Walnut</span><span class="item-price">280/550</span></li>
+                                <li><span class="item-name">Peanut Butter</span><span class="item-price">300/600</span></li>
+                                <li><span class="item-name">Blondie</span><span class="item-price">250/500</span></li>
+                                <li><span class="item-name">Chewy Chocolate Chip</span><span class="item-price">250/500</span></li>
+                            </ul>
+
+                            <h3 class="menu-category-title mt-4">Flavor Fusion Brownies</h3>
+                            <div class="menu-price-header">Half Tray/Full Tray</div>
+                            <ul class="menu-list">
+                                <li><span class="item-name">Oreo Crunch</span><span class="item-price">350/700</span></li>
+                                <li><span class="item-name">KitKat Swirl</span><span class="item-price">350/700</span></li>
+                                <li><span class="item-name">Lotus Biscoff</span><span class="item-price">380/750</span></li>
+                                <li><span class="item-name">Red Velvet Brownie</span><span class="item-price">350/700</span></li>
+                                <li><span class="item-name">Salted Caramel</span><span class="item-price">380/750</span></li>
+                                <li><span class="item-name">Matcha Green Tea</span><span class="item-price">350/700</span></li>
+                                <li><span class="item-name">Raspberry Dark Chocolate</span><span class="item-price">350/700</span></li>
+                            </ul>
+                        </div>
+
+                        <div class="menu-column right-column">
+                            <h3 class="menu-category-title">Gourmet Brownies</h3>
+                            <div class="menu-price-header">Half Tray/Full Tray</div>
+                            <ul class="menu-list">
+                                <li><span class="item-name">Triple Chocolate</span><span class="item-price">300/600</span></li>
+                                <li><span class="item-name">Brownie Ferrero</span><span class="item-price">400/800</span></li>
+                                <li><span class="item-name">Death by Chocolate</span><span class="item-price">350/700</span></li>
+                                <li><span class="item-name">Nutella Stuffed</span><span class="item-price">380/750</span></li>
+                                <li><span class="item-name">Brownie Bombs</span><span class="item-price">400/800</span></li>
+                                <li><span class="item-name">Loaded Brookie</span><span class="item-price">380/750</span></li>
+                            </ul>
+                            
+                            <ul class="menu-list mt-custom">
+                                <li><span class="item-name">Brownie Jar</span><span class="item-price">250/450</span></li>
+                                <li><span class="item-name">Brownie Box</span><span class="item-price">400/700</span></li>
+                                <li><span class="item-name">Brownie Roll</span><span class="item-price">350/650</span></li>
+                                <li><span class="item-name">Personalized</span><span class="item-price">300/550</span></li>
+                                <li><span class="item-name">Brownie Cake</span><span class="item-price">500/900</span></li>
+                                <li><span class="item-name">Brownie Pops</span><span class="item-price">350/650</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="menu-banner">
+                        All Types OF Ordes Are Available 📩
+                    </div>
+
+                    <div class="menu-desserts">
+                        <h3 class="desserts-title">° Deserts</h3>
+                        <div class="desserts-list-container">
+                            <ul class="desserts-list">
+                                <li>Classic Brownies</li>
+                                <li>Gourmet Brownies</li>
+                                <li>Brownie Pops</li>
+                            </ul>
+                            <div class="desserts-images">
+                                <img class="dessert-img" src="https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?ixlib=rb-4.0.3&w=200&q=80" alt="Classic Brownie">
+                                <img class="dessert-img" src="https://images.unsplash.com/photo-1541599468178-f073aed31007?ixlib=rb-4.0.3&w=200&q=80" alt="Gourmet Brownie">
+                                <img class="dessert-img" src="https://images.unsplash.com/photo-1615484478014-b6d7e8a87793?ixlib=rb-4.0.3&w=200&q=80" alt="Brownie Pops">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="cakes" class="products">
+            <div class="container">
+<h2 class="section-title">Our Signature Brownies</h2>
+                
+                <div class="category-filter">
+                    <button class="filter-btn active" data-filter="All">All</button>
+                    <button class="filter-btn" data-filter="Classic Brownies">Classic Brownies</button>
+                    <button class="filter-btn" data-filter="Flavor Fusion">Flavor Fusion</button>
+                    <button class="filter-btn" data-filter="Gourmet Brownies">Gourmet Brownies</button>
+                    <button class="filter-btn" data-filter="Brownie Gifts">Brownie Gifts</button>
+                </div>
+
+                <div class="products-grid" id="products-grid">
+                    <!-- Cards injected by JS -->
+                </div>
+
+                <div class="show-more-container">
+                    <button id="show-more-btn" class="btn btn-secondary">Show More</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container about-container">
+                <div class="about-logo">
+                    <img src="assets/logo.jpg" alt="Browny Brownies" class="about-logo-img">
+                </div>
+                <div class="about-content">
+                    <p class="about-statement">
+                        "Browny Brownies is a homemade bakery dedicated to crafting beautiful and delicious brownies for every special moment. Every brownie is baked fresh with love, creativity, and premium ingredients to make your celebrations unforgettable."
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            How early should I order brownies?
+                            <ion-icon name="chevron-down-outline"></ion-icon>
+                        </button>
+                        <div class="accordion-content">
+                            <p>We recommend placing your order at least 2-3 days in advance for basic cakes, and 1-2 weeks in advance for custom or wedding cakes to ensure availability.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            Do you offer custom brownie designs?
+                            <ion-icon name="chevron-down-outline"></ion-icon>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Yes, we specialize in custom designs! You can share your ideas or reference images with us, and we will bring your vision to life.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            Do you deliver brownies?
+                            <ion-icon name="chevron-down-outline"></ion-icon>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Delivery is available within the city limits for an additional fee depending on the location. Pickup from our bakery is always free.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            Can I choose brownie flavors?
+                            <ion-icon name="chevron-down-outline"></ion-icon>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Absolutely! We offer a wide variety of flavors ranging from classic chocolate and vanilla to exotic fruit and premium truffle options.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="contact-wrapper">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="mobile" placeholder="Mobile Number" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="location" placeholder="Location" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <h2 class="footer-logo">Browny Brownies</h2>
+            <p class="footer-desc">It was love at First bite</p>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#" class="social-icon"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#" class="social-icon"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                <a href="#" class="social-icon"><ion-icon name="logo-twitter"></ion-icon></a>
+            </div>
+            <div class="footer-contact-info">
+                <p><ion-icon name="location-outline"></ion-icon> 123 Bakery Street, Sweet Town, ST 45678</p>
+                <p><ion-icon name="call-outline"></ion-icon> +91 98765 43210</p>
+            </div>
+            <p class="footer-copy">&copy; 2026 Browny Brownies. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Product Modal -->
+    <div class="modal-overlay" id="product-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <div class="modal-body">
+                <div class="modal-image-container" id="modal-image-container">
+                    <!-- Image or Carousel Injected here -->
+                </div>
+                <div class="modal-details">
+                    <h3 class="modal-title" id="modal-title">Cake Title</h3>
+                    <p class="modal-desc" id="modal-desc">Cake description goes here.</p>
+                    
+                    <div class="modal-plans-section">
+                        <h4 class="plans-subtitle">Available Plans</h4>
+                        <ul class="plans-list" id="modal-plans-list">
+                            <!-- Plans injected here -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Installation Dialog Modal -->
+    <div class="install-dialog-overlay" id="install-dialog">
+        <div class="install-dialog">
+            <div class="install-dialog-icon">
+                <img src="assets/logo.jpg" alt="Browny Brownies">
+            </div>
+            <h3 class="install-dialog-title">Install Browny Brownies?</h3>
+            <p class="install-dialog-desc">Add to your home screen for quick access and offline browsing.</p>
+            <div class="install-dialog-buttons">
+                <button class="install-btn install-cancel" id="install-cancel">Cancel</button>
+                <button class="install-btn install-confirm" id="install-confirm">Install</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll Reveal / Intersection Observer Script -->
+    <script src="script.js"></script>
+</body>
+</html>
